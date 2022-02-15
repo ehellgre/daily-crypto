@@ -1,0 +1,216 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  background-color: black;
+}
+
+.app h1 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.app-wrapper {
+  display: flex;
+}
+
+.news-feed {
+  background-color: rgb(204, 204, 231) !important;
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 /0.2);
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.news-feed-header {
+  text-align: center !important;
+  margin: 10px;
+}
+
+.currency-converter {
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.cc-header {
+  color:white;
+  margin: 10px;
+}
+
+.input-box {
+  background-color: rgb(218, 227, 238);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.exchange-rate {
+  background-color: rgb(221, 230, 221);
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.exchange-rate-result {
+  background-color: rgb(221, 230, 221);
+  color: black !important;
+}
+
+
+/* CRYPTO SEARCH STARTS */
+
+.top-ten {
+  color: white;
+}
+
+.crypto-search {
+  margin: 40px;
+}
+
+.crypto-search h1 {
+  margin-bottom: 13px;
+}
+
+.coin-container {
+  justify-content: center;
+  background-color: #c29fb6;
+  background-color: black;
+}
+
+.coin-row {
+  display: flex;
+  flex-direction: row;
+  justify-items: start;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid #d7d7d7;
+  width: 900px;
+}
+
+.coin {
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+  min-width: 300px;
+}
+
+.coin h1 {
+  font-size: 16px;
+  width: 150px;
+}
+
+.coin img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.coin-symbol {
+  text-transform: uppercase;
+}
+
+.coin-data {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+}
+
+.coin-price {
+  width: 110px;
+}
+
+.coin-volume {
+  width: 200px;
+}
+
+.coin-marketcap {
+  width: 240px;
+}
+
+.coin-percent {
+  width: 80px;
+}
+
+.coin-search {
+  margin-bottom: 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-text {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.coin-input {
+  padding-left: 16px;
+  width: 300px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  background-image: linear-gradient(-225deg, #ac32e4 30%, #7918f2 48%, #c29fb6 100%);
+  color: #fdfdfd;
+}
+
+.coin-input::placeholder {
+  color: #fdfdfd;
+}
+
+.red {
+  color: #f00606
+}
+
+.green {
+  color: green;
+}
+
+/* CRYPTO SEARCH ENDS */
+
+button {
+  border-color: black;
+  float: right;
+  margin: 2px;
+  background-color: rgb(218, 227, 238);
+  border-radius: 5px;
+  border-width: 1px;
+  font-weight: bold;
+  padding: 2px;
+}
+
+button:hover {
+  background-color: rgb(151, 192, 241);
+}
+
+input, select {
+  border: none;
+}
+
